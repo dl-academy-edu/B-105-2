@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+    <link rel="stylesheet" href="/common.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header block">
+        <a href="/">
+            <img class="header-logo" src="/img/logo.png" alt="Main logo">
+        </a>
+        <nav class="header-nav">
+            <ul class="header-list">
+                <li><a href="#" class="link">Catalog</a></li>
+                <li><a href="#" class="link">Servises</a></li>
+                <li><a href="#" class="link">Blog</a></li>
+                <li><a href="#" class="link">About us</a></li>
+            </ul>
+        </nav>
+        <a class="link link_purple" href="tel:7194319698">719-431-9698</a>
+        <a class="btn" href="/pages/contact-us/index.html">Contact  Us</a>
+    </header>
+    <main>
+        <h1 class="contact-us-title">Contact  Us</h1>
+        <form>
+            <label class="label-text">
+                <span>Name</span>
+                <input class="input" type="text" name="name" placeholder="Ivan Ivanov">
+            </label>
+            <label class="label-text">
+                <span>Phone</span>
+                <input class="input" type="text" name="phone">
+            </label>
+            <label class="label-text">
+                <span>E-mail</span>
+                <input class="input" type="email" name="email">
+            </label>
+            <fieldset>
+                <legend>Payment Methods</legend>
+                <label class="label-checkbox">
+                    <input class="checkbox" type="checkbox" name="paymentMethods" value="cash">
+                    <span>Сash</span>
+                </label>
+                <label class="label-checkbox">
+                    <input class="checkbox" type="checkbox" name="paymentMethods" value="creditСard">
+                    <span>Сredit Сard</span>
+                </label>
+                <label class="label-checkbox">
+                    <input class="checkbox" type="checkbox" name="paymentMethods" value="Receipt">
+                    <span>Receipt</span>
+                </label>
+            </fieldset>
+            <label class="label-text">
+                <span>City of Birth</span>
+                <input class="input" type="text" name="cityOfBirth">
+            </label>
+            <fieldset>
+                <legend>Do you need a report on the services provided?</legend>
+                <label>
+                    <input type="radio" name="youNeed" value="yes">
+                    <span>Yes</span>
+                </label>
+                <label>
+                    <input type="radio" name="youNeed" value="no">
+                    <span>No</span>
+                </label>
+            </fieldset>
+            <label>
+                <span>Message</span>
+                <textarea name="message" cols="30" rows="10"></textarea>
+            </label>
+            <button class="btn" type="submit">SUBMIT</button>
+        </form>
+    </main>
+    <section class="map">
+        <h2 class="map-title">Chem-Dry</h2>
+        <p class="map-text">9420 Cedar CT, Thornton, CO 80229</p>
+        <a class="map-tel" href="tel:7206059399">(720) 605-9399</a>
+        <a class="btn btn_purple map-link" href="#">Learn More</a>
+    </section>
+    <footer class="footer">
+        <h2 class="footer-title">Subscribe to our social networks</h2>
+        <ul class="social-list">
+            <li class="social">
+                <a href="#" class="social-network">
+                    <img src="/img/social-1.svg" alt="Social-1" class="social-img">
+                </a>
+            </li>
+            <li class="social">
+                <a href="#" class="social-network">
+                    <img src="/img/social-2.svg" alt="Social-2" class="social-img">
+                </a>
+            </li>
+            <li class="social">
+                <a href="#" class="social-network">
+                    <img src="/img/social-3.svg" alt="Social-3" class="social-img">
+                </a>
+            </li>
+            <li class="social">
+                <a href="#" class="social-network">
+                    <img src="/img/social-4.svg" alt="Social-4" class="social-img">
+                </a>
+            </li>
+            <li class="social">
+                <a href="#" class="social-network">
+                    <img src="/img/social-5.svg" alt="Social-5" class="social-img">
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

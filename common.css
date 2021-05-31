@@ -1,0 +1,207 @@
+body { 
+    margin: 0; 
+    font-family: 'Lato', sans-serif; 
+}
+
+a { 
+    text-decoration: none;
+}
+
+html { 
+    box-sizing: border-box; 
+}
+
+*, *::before, *::after { 
+    box-sizing: inherit; 
+}
+
+img { 
+    max-width: 100%; 
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.link{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #333333;
+}
+
+.btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+
+    background-color: #008752;
+    border: none;
+
+    width: 181px;
+    min-height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #26CD8B;
+}
+
+.btn:active {
+  background-color: #005232;
+}
+
+.btn_purple {
+    background-color: #95459A;
+}
+
+.btn_purple:hover {
+  background-color: #D665DD;
+}
+
+.btn_purple:active {
+  background-color: #722A77;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+}
+
+.link_purple {
+  color: #95459A;
+}
+
+/* Header */
+.header {
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-main-link {
+  margin-right: 25px;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-link {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #333333;
+  margin-right: 15px;
+}
+
+.header-tel {
+  margin-left: auto;
+  margin-right: 24px;
+}
+
+/* map */
+.map {
+  height: 426px;
+  background-image: url('/img/map.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.map-popup {
+  width: 380px;
+  padding: 50px 44px 26px;
+  color: #FFFFFF;
+  background-color: #008752;
+}
+
+.map-title {
+  margin-top: 0;
+  margin-bottom: 17px;
+
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.map-text {
+  margin-top: 10px;
+  margin-bottom: 23px;
+
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.map-tel {
+  display: inline-block;
+  /* TODO: Тут надо проверить отступ сверху на схлопывание */
+  margin-top: 0;
+  margin-bottom: 23px;
+
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+}
+
+/* footer */
+.footer-content {
+  display: flex;
+}
+.footer {
+  padding-top: 53px;
+  padding-bottom: 54px;
+
+  background-color: #00559D;
+}
+
+.footer-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+
+  color: #FFFFFF;
+}
+
+.social-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.social {
+  margin-left: 16px;
+}

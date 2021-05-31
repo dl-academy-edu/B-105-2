@@ -1,0 +1,97 @@
+/* poster */
+.poster {
+  padding-top: 143px;
+  padding-bottom: 286px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('/img/poster-bg.jpg'), linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%);
+}
+
+.poster-title {
+  margin-top: 0;
+  margin-bottom: 49px;
+
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 90px;
+
+  color: #00559D;
+}
+
+.poster-btn {
+  width: 360px;
+  height: 60px;
+
+  font-size: 24px;
+  line-height: 29px;
+}
+
+/* services */
+.services-list {
+  display: flex;
+}
+.services-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 42px;
+  line-height: 50px;
+
+  color: #00559D;
+}
+
+/* service */
+.service-title {
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #2C3036;
+}
+
+.service-text {
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #2C3036;
+}
+
+/* why-us */
+.why-us-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.why-us-about {
+  width: 480px;
+  margin-right: 120px;
+}
+.why-us-title {
+  margin-top: 0;
+  margin-bottom: 46px;
+
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+
+  color: #005DAB;
+}
+
+.why-us-text {
+  margin-bottom: 20px;
+
+  font-size: 18px;
+  line-height: 28px;
+  
+  color: #000000;
+}
+
+.why-us-img {
+  box-shadow: 110px 99px 0px 0px #008752;
+}
+
+/* achievements */
+
+.achievements-list {
+  display: flex;
+  justify-content: space-between;
+}
