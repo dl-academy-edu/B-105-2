@@ -37,7 +37,7 @@
     <section class="poster">
       <div class="container">
         <h1 class="poster-title">The world’s leading <br> cleaning company</h1>
-        <button class="btn btn_purple poster-btn" type="button">Get a Free Estimate</button>
+        <button class="btn btn_purple poster-btn btn-open_js" type="button">Get a Free Estimate</button>
       </div>
     </section>
     <section class="services">
@@ -178,11 +178,12 @@
       </div>
     </div>
   </footer>
-  <div class="bg-wrapper bg-wrapper_close">
+  <div class="bg-wrapper bg-wrapper_close popup_js">
+    <div class="bg-full bg_js"></div>
     <form class="popup-form wrapper-form wrapper-form_mini">
       <div class="form-row">
         <label class="form-col label-text input-wrapper">
-          <input class="input" type="text" name="name" placeholder="Ivan Ivanov">
+          <input class="input input_js" type="text" name="name" placeholder="Ivan Ivanov">
           <span class="label-control">Name</span>
         </label>
         <label class="form-col label-text input-wrapper">
@@ -203,9 +204,10 @@
         </label>
       </div>
       <button class="btn" type="submit">SUBMIT</button>
-      <button class="close-btn" type="button">X</button>
+      <button class="close-btn btn-close_js" type="button">X</button>
     </form>
   </div>
+  <script src="/main.js"></script>
 </body>
 
 </html>
