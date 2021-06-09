@@ -35,61 +35,70 @@
         <h1 class="contact-us-title">Contact  Us</h1>
         <form class="wrapper-form">
             <div class="form-row">
-                <label class="form-col label-text">
-                    <span class="label-control">Name</span>
+                <label class="form-col label-text input-wrapper">
                     <input class="input" type="text" name="name" placeholder="Ivan Ivanov">
+                    <span class="label-control">Name</span>
                 </label>
-                <label class="form-col label-text">
-                    <span class="label-control">Phone</span>
+                <label class="form-col label-text input-wrapper">
                     <input class="input" type="text" name="phone">
+                    <span class="label-control">Phone</span>
                 </label>
             </div>
             <div class="form-row">
-                <label class="form-line label-text">
-                    <span class="label-control">E-mail</span>
+                <label class="form-line label-text input-wrapper">
                     <input class="input" type="email" name="email">
+                    <span class="label-control">E-mail</span>
                 </label>
             </div>
             <div class="form-row">
                 <fieldset class="form-line fieldset label-text">
                     <legend>Payment Methods</legend>
-                    <label class="label-text label-checkbox">
-                        <input class="checkbox" type="checkbox" name="paymentMethods" value="cash">
-                        <span>Сash</span>
-                    </label>
-                    <label class="label-text label-checkbox">
-                        <input class="checkbox" type="checkbox" name="paymentMethods" value="creditСard">
-                        <span>Сredit Сard</span>
-                    </label>
-                    <label class="label-text label-checkbox">
-                        <input class="checkbox" type="checkbox" name="paymentMethods" value="Receipt">
-                        <span>Receipt</span>
-                    </label>
+                    <div class="form-list">
+                      <label class="label-text checkbox-wrapper">
+                          <input class="checkbox visually-hidden" type="checkbox" name="paymentMethods" value="cash">
+                          <span class="checkbox-checker"></span>
+                          <span>Сash</span>
+                      </label>
+                      <label class="label-text checkbox-wrapper">
+                          <input class="checkbox visually-hidden" type="checkbox" name="paymentMethods" value="creditСard">
+                          <span class="checkbox-checker"></span>
+                          <span>Сredit Сard</span>
+                      </label>
+                      <label class="label-text checkbox-wrapper">
+                          <input class="checkbox visually-hidden" type="checkbox" name="paymentMethods" value="Receipt">
+                          <span class="checkbox-checker"></span>
+                          <span>Receipt</span>
+                      </label>
+                    </div>
                 </fieldset>
             </div>
             <div class="form-row">
-                <label class="form-line label-text">
-                    <span class="label-control">City of Birth</span>
+                <label class="form-line label-text input-wrapper">
                     <input class="input" type="text" name="cityOfBirth">
+                    <span class="label-control">City of Birth</span>
                 </label>
             </div>
             <div class="form-row">
                 <fieldset class="form-line fieldset label-text">
                     <legend>Do you need a report on the services provided?</legend>
-                    <label>
-                        <input type="radio" name="youNeed" value="yes">
-                        <span>Yes</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="youNeed" value="no">
-                        <span>No</span>
-                    </label>
+                    <div class="form-list">
+                      <label class="label-text radio-wrapper">
+                          <input class="visually-hidden" type="radio" name="youNeed" value="yes">
+                          <span class="radio-checker"></span>
+                          <span>Yes</span>
+                      </label>
+                      <label class="label-text radio-wrapper">
+                          <input class="visually-hidden" type="radio" name="youNeed" value="no">
+                          <span class="radio-checker"></span>
+                          <span>No</span>
+                      </label>
+                    </div>
                 </fieldset>
             </div>
             <div class="form-row">
-                <label class="form-line label-text">
-                    <span class="label-control">Message</span>
+                <label class="form-line label-text input-wrapper">
                     <textarea class="input input_textarea" name="message" cols="30" rows="10"></textarea>
+                    <span class="label-control">Message</span>
                 </label>
             </div>
             <button class="btn" type="submit">SUBMIT</button>

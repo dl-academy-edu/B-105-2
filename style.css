@@ -1,6 +1,6 @@
 /* poster */
 .poster {
-  padding-top: 143px;
+  padding-top: 153px;
   padding-bottom: 286px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,7 @@
 
 .poster-title {
   margin-top: 0;
-  margin-bottom: 49px;
+  margin-bottom: 39px;
 
   font-weight: 900;
   font-size: 90px;
@@ -29,6 +29,11 @@
 
 /* services */
 
+.services {
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
 .services-list {
   display: flex;
   flex-wrap: wrap;
@@ -37,6 +42,8 @@
 }
 
 .services-title {
+  margin-top: 0;
+  margin-bottom: 53px;
   font-weight: bold;
   text-align: center;
   font-size: 42px;
@@ -48,7 +55,8 @@
 /* service */
 .services-item {
   width: 300px;
-  padding: 10px;
+  padding: 0 10px;
+  margin-bottom: 20px;
 }
 
 .service-img {
@@ -56,6 +64,9 @@
 }
 
 .service-title {
+  margin-top: 19px;
+  margin-bottom: 18px;
+
   font-size: 30px;
   line-height: 36px;
 
@@ -63,6 +74,9 @@
 }
 
 .service-text {
+  margin-top: 18px;
+  margin-bottom: 20px;
+
   font-size: 16px;
   line-height: 21px;
 
@@ -70,6 +84,11 @@
 }
 
 /* why-us */
+.why-us {
+  margin-top: 90px;
+  margin-bottom: 106px;
+}
+
 .why-us-content {
   display: flex;
   flex-wrap: wrap;
@@ -106,10 +125,34 @@
 
 /* achievements */
 
+.achievements {
+  margin-top: 106px;
+  margin-bottom: 80px;
+}
+
 .achievements-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.achievement {
+  opacity: 0.5;
+  display: block;
+
+  transition: all .3s;
+}
+
+.achievement:hover {
+  opacity: 1;
+}
+
+.achievement:active {
+  opacity: 0.2;
+}
+
+.achievement-img {
+  display: block;
 }
 
 /* FORM */
